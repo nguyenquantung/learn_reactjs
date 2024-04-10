@@ -1,0 +1,41 @@
+.list-to-do{
+    text-align: center;
+    font-size: Arial, sans-serif;
+}
+button{
+    font-size: 1.7 rem;
+    padding: 10px 20px;
+}
+.add-button{
+    background-color: aquamarine;
+}
+input[type="text"]{
+    font-size: 1.6 rem;
+    padding: 10px 20px;
+}
+ol{
+    padding: 0;
+}
+li {
+    font-size: 2 rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color:aliceblue;
+    margin-bottom: 10px;
+    border: 3px solid rgb(24, 24, 24);
+    display: flex;
+    align-items: center;
+}
+.text{
+    flex: 1;
+}
+.delete-button{
+    padding :8px 12px;
+    margin-left: 10px;
+    font-size: 1.4 rem;
+}
+.edit-button{
+    padding :8px 12px;
+    margin-left: 10px;
+    font-size: 1.4 rem;
+}
